@@ -9,7 +9,11 @@
     "dev:watch": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["express", "typescript", "api"],
+  "keywords": [
+    "express",
+    "typescript",
+    "api"
+  ],
   "author": "Akinbohun Opeyemi",
   "license": "ISC",
   "description": "",
@@ -17,13 +21,11 @@
     "axios": "^1.12.2",
     "express": "^5.1.0",
     "express-rate-limit": "^8.1.0",
-    "node-fetch": "^3.3.2",
     "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/node": "^24.8.1",
-    "@types/node-fetch": "^2.6.13",
     "typescript": "^5.9.3"
   }
 }
